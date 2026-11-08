@@ -35,7 +35,8 @@ flowchart LR
 - Deployed **Zeek** as a passive IDS to produce structured network logs from lab traffic.
 - Indexed the Zeek logs in **Elasticsearch** and investigated them in **Kibana**.
 - **Correlated** IDS and SIEM data to reconstruct two attacks.
-- Protected **log integrity** with Elastic **X-Pack** security features, so the evidence used in the investigation can be trusted.
+- Protected **log integrity** with Elastic **X-Pack** security features, so the collected logs stay immutable and can be trusted as evidence.
+- Troubleshot network issues (**IPv4/IPv6 conflicts**, `EAI_AGAIN` **DNS resolution errors**) to keep the monitoring pipeline available.
 
 ## Investigations
 
